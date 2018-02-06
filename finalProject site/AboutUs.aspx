@@ -47,7 +47,7 @@
                         <a href="#" class="fa fa-twitter"></a>
                         <a href="https://www.linkedin.com/in/trey-recher-27372813a/" class="fa fa-linkedin"></a>
                         <a href="#" class="fa fa-google"></a> 
-                  <%--  jjjjjjjjj--%>
+            
                 </td>
                
             </tr>
