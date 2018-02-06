@@ -1,0 +1,20 @@
+﻿
+Partial Class _Default
+    Inherits System.Web.UI.Page
+
+    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim aDatatier As New physicianDataTier
+
+        Try
+            Dim DOBstartBound As String = txtDOBstartBound.text.trim
+            Dim DOBstopBound As String = txtDOBstopBound.text.trim
+            Dim physiciantName As String = txtPhysicainName.text.trim
+            Dim physicianSpecialty As String = txtPhysicianSpecialty.text.trim
+            Dim physicianID As String = txtPhysicianID.text.trim
+
+            aDatatier.searchPhysician(DOBstartBound, DOBstopBound, physiciantName, physicianSpecialty)
+        Catch ex As Exception
+
+        End Try
+    End Sub
+End Class

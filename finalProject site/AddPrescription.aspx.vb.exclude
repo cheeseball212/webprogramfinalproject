@@ -1,0 +1,26 @@
+﻿
+Partial Class _Default
+    Inherits System.Web.UI.Page
+
+    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim aDatatier As New prescriptionDataTier
+
+        Try
+            Dim patientID As String = txtPatientID.text.trim
+            Dim physicianID As String = txtPhysicianID.text.trim
+            Dim drugName As String = txtDrugName.text.trim
+            Dim drugDescription As String = txtDrugDescription.text.trim
+            Dim expireDate As String = txtExpireDate.text.trim
+            Dim drugDosage As String = txtDrugDosage.text.trim
+            Dim intakeMethod As String = txtIntakeMethod.text.trim
+            Dim drugFrequency As String = txtDrugFrequency.text.trim
+            Dim maxRefills As String = txtMaxRefill.text.trim
+
+            aDatatier.addPrescription(patientID, physicianID, drugName, drugDescription, expireDate, drugDosage, intakeMethod, drugFrequency, maxRefills)
+
+        Catch ex As Exception
+
+        End Try
+
+    End Sub
+End Class

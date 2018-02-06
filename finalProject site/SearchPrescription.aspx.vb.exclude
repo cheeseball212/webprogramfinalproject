@@ -1,0 +1,17 @@
+﻿
+Partial Class _Default
+    Inherits System.Web.UI.Page
+
+    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim aDatatier As New prescriptionDataTier
+
+        Dim RxNumber As String = txtRxNumber.text.trim
+        Dim patientName As String = txtPatientName.text.trim
+        Dim physicianName As String = txtPhysicianName.text.trim
+        Dim drugName As String = txtDrugName.text.trim
+        Dim prescribedStartDateBound As String = txtPrescribeStartDateBound.text.trim
+        Dim prescribedStopDateBound As String = txtPrescribedStopDateBound.text.trim
+
+        aDatatier.searchPrescription(RxNumber, patientName, physicianName, drugName, prescribedStartDateBound, prescribedStopDateBound)
+    End Sub
+End Class

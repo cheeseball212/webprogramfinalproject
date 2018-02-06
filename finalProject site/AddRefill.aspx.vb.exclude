@@ -1,0 +1,17 @@
+﻿
+Partial Class Default2
+    Inherits System.Web.UI.Page
+
+    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim aDatatier As New RefillDataTier
+
+        Try
+            Dim RxNumber As String = txtRxNumber.text.trim
+
+            aDatatier.addRefill(RxNumber)
+
+        Catch ex As Exception
+
+        End Try
+    End Sub
+End Class

@@ -1,0 +1,24 @@
+﻿
+Partial Class _Default
+    Inherits System.Web.UI.Page
+    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+
+        Dim aDatatier As New RefillDataTier
+
+        Try
+            Dim patientName As String = txtPatientName.text.trim
+            Dim physicianName As String = txtPhysicianName.text.trim
+            Dim drugName As String = txtDrugName.text.trim
+            Dim prescribedStartDateBound As String = txtPrescribedStartDateBound.text.trim
+            Dim prescribedStopDateBound As String = txtPrescribedStopDateBount.text.trim
+            Dim refillStartDateBound As String = txtRefillStartDateBound.text.trim
+            Dim refillStopDateBound As String = txtRefillStopDateBount.text.trim
+            Dim refillID As String = txtRefillID.text.trim
+
+            aDatatier.searchRefill(patientName, physicianName, drugName, prescribedStartDateBound, prescribedStopDateBound, refillStartDateBound, refillStopDateBound, refillID)
+
+        Catch ex As Exception
+
+        End Try
+    End Sub
+End Class
