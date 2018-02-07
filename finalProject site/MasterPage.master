@@ -14,7 +14,7 @@
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
             <link rel="stylesheet" href="css\font-awesome.css"/>
             <link rel="stylesheet" href="css\Logos.css" />
-
+           <link rel="stylesheet" href="css\style.css" />
         <!-- Make compatible with all devices -->
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
       
@@ -120,7 +120,7 @@
         
 </head>
 
-<body style="background-color:lightcoral">
+<body style="background-color:steelblue">
     <form id="form1" runat="server">
     
 
@@ -161,21 +161,27 @@
 </div>
         <br />
 
-<%--        <!--slideshow-->
-<div class="slider" id="main-slider" ><!-- outermost container element -->
-	<div class="slider-wrapper" ><!-- innermost wrapper element -->
 
-		<img src="http://s3.amazonaws.com/production_images.servicenoodle.com/images/9227/full/Kilgores_pic_3.jpg?1299683138" alt="First" class="slide" style="height:150px;" /><!-- slides -->
-		<img src="https://vwhs.org/wp-content/uploads/2017/10/ASHC_Full-1024x292.jpg" alt="Second" class="slide"style="height:150px" />
-		<img src="https://vwhs.org/wp-content/uploads/2016/02/Pharmacist.jpg" alt="Third" class="slide" style="height:150px" />
-	</div>
-</div>	--%>
 
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
         
     </form>
-    <footer style="text-align:center">FUCK ME</footer>
+<article id="wrap">
+	<article id="lightings">
+    	<section id="one">
+            <section id="two">
+                <section id="three">
+                    <section id="four">
+                        <section id="five">
+                            
+                        </section>
+                    </section>
+                </section>
+            </section>
+		</section>
+    </article>
+</article>
 </body>
 </html>
