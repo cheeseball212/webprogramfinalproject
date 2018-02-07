@@ -9,6 +9,10 @@
             margin-top: 128px;
         }
     </style>
+
+
+
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     
@@ -41,7 +45,7 @@
                     </div></div></div><br />
                     <a href="AddPatient.aspx" target="" class="icon-block-cta">Add Patient</a><br />
                 </div>
-                </div><br /><br /><br />
+                </div><%--<br /><br /><br />
    <div>
          <table style="text-align:center" align="center">
        <tr> 
@@ -61,6 +65,9 @@
 		<img src="https://vwhs.org/wp-content/uploads/2017/10/ASHC_Full-1024x292.jpg" alt="Second" class="slide"style="height:150px" />
 		<img src="https://vwhs.org/wp-content/uploads/2016/02/Pharmacist.jpg" alt="Third" class="slide" style="height:150px" />
 	</div>
-</div>	
+</div>	--%>
+
+
+
 </asp:Content>
 

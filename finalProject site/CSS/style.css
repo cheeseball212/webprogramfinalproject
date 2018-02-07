@@ -1,4 +1,6 @@
 
+/* CSS Document */
+
 *
 {
 	padding: 0px;
@@ -9,14 +11,13 @@ html, body
 {
 	background: #000;
 	width: 100%;
-	height: p
-{%;
+	height: 100%;
 }
 
 #wrap
 {
 	width: 100%;
-	height:lat5%;
+	height: 50%;
 	position: relative;
 	margin: 0 auto 0 auto;
 	overflow: hidden;

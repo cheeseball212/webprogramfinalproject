@@ -166,9 +166,10 @@
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
-        
+        <div><br /><br /></div>
     </form>
-<article id="wrap">
+   <br />
+        <article id="wrap">
 	<article id="lightings">
     	<section id="one">
             <section id="two">
@@ -183,5 +184,7 @@
 		</section>
     </article>
 </article>
+
+    
 </body>
 </html>
