@@ -23,9 +23,6 @@ Partial Class _Default
 
         End Try
     End Sub
-    Protected Sub txtDOB_TextChanged(sender As Object, e As EventArgs) Handles txtDOB.TextChanged
-
-    End Sub
 End Class
 
 
