@@ -22,26 +22,10 @@ Partial Class _Default
         Catch ex As Exception
 
         End Try
-
-        If Page.IsValid Then
-            lblMessage.Text = "Patient Added"
-        End If
     End Sub
-<<<<<<< HEAD
     Protected Sub txtDOB_TextChanged(sender As Object, e As EventArgs) Handles txtDOB.TextChanged
 
     End Sub
-    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
-        lblMessage.Text = ""
-    End Sub
-<<<<<<< HEAD
-    Protected Sub txtDOB_TextChanged(sender As Object, e As EventArgs) Handles txtDOB.TextChanged
-
-    End Sub
-=======
-=======
->>>>>>> cbcd6ddab691f350bc10741516a9fb9a41743517
->>>>>>> 11863c191281024fd84a3d568fa41ba12233ba08
 End Class
 
 
