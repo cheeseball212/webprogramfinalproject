@@ -9,10 +9,27 @@
             width: 917px;
         }
         .auto-style2 {
+        .auto-style4 {
+            width: 452px;
+        }
+        .auto-style5 {
+            margin-left: 2px;
+        }
+        .auto-style6 {
+            margin-left: 0px;
+        }
+        .auto-style7 {
+            margin-left: 8px;
+        }
+        .auto-style8 {
+            margin-left: 4px;
+        }
+        .auto-style9 {
+            width: 132px;
             margin-left: 13px;
         }
-        .auto-style3 {
-            margin-left: 12px;
+        .auto-style10 {
+            margin-left: 5px;
         }
         .auto-style4 {
             width: 526px;
@@ -48,33 +65,42 @@
                      </p>
 
                      <p>Last Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<<<<<<< HEAD
                          <asp:TextBox ID="txtLName" runat="server" CssClass="auto-style5"></asp:TextBox>
+=======
+                         <asp:TextBox ID="txtLname" runat="server" CssClass="auto-style10"></asp:TextBox>
+>>>>>>> cc4679e554b734255780f7d8872d344d7ad4d14e
                      </p>
                      <p>Middle Initial:&nbsp;
-                         <asp:TextBox ID="txtMidinit" runat="server"></asp:TextBox>
+                         <asp:TextBox ID="txtMidinit" runat="server" CssClass="auto-style8"></asp:TextBox>
                      </p>
 
+<<<<<<< HEAD
                      <p>DOB:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                          <asp:TextBox ID="txtDOB" runat="server" maxlength="10"></asp:TextBox>
+=======
+                     <p>DOB:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" class="auto-style9" />
+                         <asp:TextBox ID="txtDOB" runat="server" ValidateRequestMode="Enabled" maxlength="10" Height="16px"></asp:TextBox>
+>>>>>>> cc4679e554b734255780f7d8872d344d7ad4d14e
                          
                      <p>Gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                         <asp:TextBox ID="txtGender" runat="server"></asp:TextBox>
+                         <asp:TextBox ID="txtGender" runat="server" CssClass="auto-style8"></asp:TextBox>
                          
                      </p>
 
                      <p>Home Phone:
-                         <asp:TextBox ID="txtHomePhone" runat="server" CssClass="auto-style2"></asp:TextBox>
+                         <asp:TextBox ID="txtHomePhone" runat="server" CssClass="auto-style7"></asp:TextBox>
                      </p>
                      <p>Cell Phone:&nbsp;&nbsp;&nbsp;
-                         <asp:TextBox ID="txtCellPhone" runat="server" CssClass="auto-style3" ></asp:TextBox>
+                         <asp:TextBox ID="txtCellPhone" runat="server" CssClass="auto-style7" ></asp:TextBox>
 
                      </p>
                      <p>Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                         <asp:TextBox ID="txtAddress" runat="server"></asp:TextBox>
+                         <asp:TextBox ID="txtAddress" runat="server" CssClass="auto-style6"></asp:TextBox>
                      </p>
 
                      <p>City:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                         <asp:TextBox ID="txtCity" runat="server"></asp:TextBox>
+                         <asp:TextBox ID="txtCity" runat="server" CssClass="auto-style5"></asp:TextBox>
                      </p>
                      <p>State:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                          <asp:TextBox ID="txtState" runat="server"></asp:TextBox>
