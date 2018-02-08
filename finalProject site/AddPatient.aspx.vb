@@ -1,11 +1,12 @@
 ﻿
 Partial Class _Default
     Inherits System.Web.UI.Page
+
     Protected Sub btnAddPatient_Click(sender As Object, e As EventArgs) Handles btnAddPatient.Click
         Dim aDatatier As New patientDataTier
         Try
-            Dim fname As String = txtFname.Text.Trim
-            Dim lName As String = txtLname.Text.Trim
+            Dim fname As String = txtFName.Text.Trim
+            Dim lName As String = txtLName.Text.Trim
             Dim midInitial As String = txtMidinit.Text.Trim
             Dim DOB As String = txtDOB.Text.Trim
             Dim gender As String = txtGender.Text.Trim
