@@ -8,6 +8,7 @@
         .auto-style1 {
             width: 917px;
         }
+        .auto-style2 {
         .auto-style4 {
             width: 452px;
         }
