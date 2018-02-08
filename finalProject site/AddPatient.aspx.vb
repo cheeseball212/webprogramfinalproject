@@ -21,6 +21,10 @@ Partial Class _Default
         Catch ex As Exception
 
         End Try
+
+    End Sub
+    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
+
     End Sub
 End Class
 
