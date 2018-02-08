@@ -47,13 +47,7 @@
                          <asp:TextBox ID="txtGender" runat="server"></asp:TextBox>
                              </td>
                          </tr>
-                         <tr>
-                             <td class="auto-style11">Specialty</td>
-                             <td class="auto-style18">
-                         <asp:TextBox ID="txtSpec" runat="server"></asp:TextBox>
-                             </td>
-                         </tr>
-                         <tr>
+                        <tr>
                              <td class="auto-style10">Home Phone</td>
                              <td class="auto-style19">
                          <asp:TextBox ID="txtHomePhone" runat="server" CssClass="auto-style2"></asp:TextBox>
