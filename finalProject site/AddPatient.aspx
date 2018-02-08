@@ -47,7 +47,7 @@
                          <asp:TextBox ID="txtGender" runat="server"></asp:TextBox>
                              </td>
                          </tr>
-                         <tr>
+                        <tr>
                              <td class="auto-style10">Home Phone</td>
                              <td class="auto-style19">
                          <asp:TextBox ID="txtHomePhone" runat="server" CssClass="auto-style2"></asp:TextBox>
@@ -92,7 +92,14 @@
                          <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
                              </td>
                          </tr>
-                         </table>
+                         <tr>
+                             <td class="auto-style14">Salary</td>
+                             <td class="auto-style22">
+                         <asp:TextBox ID="txtSalary" runat="server" onkeypress="return onlyDotsAndNumbers(this,event);"></asp:TextBox>
+                         
+                             </td>
+                         </tr>
+                     </table>
 
                      
 
