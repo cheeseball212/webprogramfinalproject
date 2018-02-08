@@ -27,12 +27,15 @@ Partial Class _Default
             lblMessage.Text = "Patient Added"
         End If
     End Sub
+<<<<<<< HEAD
     Protected Sub txtDOB_TextChanged(sender As Object, e As EventArgs) Handles txtDOB.TextChanged
 
     End Sub
     Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
         lblMessage.Text = ""
     End Sub
+=======
+>>>>>>> cbcd6ddab691f350bc10741516a9fb9a41743517
 End Class
 
 
